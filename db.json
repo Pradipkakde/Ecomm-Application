@@ -23,6 +23,12 @@
       "name": "admin",
       "password": "admin",
       "email": "admin@gmail.com"
+    },
+    {
+      "id": "b0b0",
+      "name": "chetu",
+      "password": "chetu",
+      "email": "chetu@gmail.com"
     }
   ]
 }
