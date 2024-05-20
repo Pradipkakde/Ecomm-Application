@@ -1,0 +1,28 @@
+{
+  "seller": [
+    {
+      "id": "4025",
+      "name": "pk",
+      "password": "pk",
+      "email": "pk"
+    },
+    {
+      "id": "41a2",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "2291",
+      "name": "mp",
+      "password": "mp",
+      "email": "mp"
+    },
+    {
+      "id": "24e2",
+      "name": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com"
+    }
+  ]
+}
