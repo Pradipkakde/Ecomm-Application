@@ -19,7 +19,7 @@ export class SellerService {
         console.log(result)
        if(result){
         localStorage.setItem('seller',JSON.stringify(result.body))
-        this.router.navigate(['seller-home']);
+        this.router.navigateByUrl('seller-home');
        }
       });
    
@@ -27,7 +27,7 @@ export class SellerService {
   reloadSeller(){
     if(localStorage.getItem('seller')){
       this.isSellerLogedIn.next(true);
-      this.router.navigate(['seller-home']);
+      this.router.navigateByUrl('seller-home');
     }
   }
 
@@ -41,7 +41,7 @@ export class SellerService {
           console.log("user logged In successfully")
           this.isLoginError.emit(false)
           localStorage.setItem('seller',JSON.stringify(result.body))
-          this.router.navigate(['seller-home'])
+          this.router.navigateByUrl('seller-home')
       }
       else{
         console.log("login faild")

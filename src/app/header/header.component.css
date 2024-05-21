@@ -5,7 +5,8 @@
 .nav h1{
     color: blueviolet;
     margin: 0;
-    font-size: 40px;
+
+    font-size: 38px;
 }
 .nav ul{
     display: inline-flex;
@@ -15,7 +16,7 @@
 }
 ul li{
     
-    padding-left: 15px;
+    padding-left: 35px;
     padding-top: 15px;
 }
 nav  li a{
