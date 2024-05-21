@@ -37,25 +37,5 @@
       "email": "ram@gmail.com"
     }
   ],
-  "products": [
-    {
-      "id": "27d8",
-      "name": "samsung14",
-      "price": "10000",
-      "color": "red",
-      "category": "mobile",
-      "description": "samsung is a very fast",
-      "image": "https://images.app.goo.gl/RZM9s2BXBWPKjx5P8"
-    },
-    {
-      "id": "d980",
-      "name": "samsung14",
-      "price": "10000",
-      "color": "red",
-      "category": "mobile",
-      "description": "samsung is a very fast",
-      "image": "https://images.app.goo.gl/RZM9s2BXBWPKjx5P8"
-    }
-    
-  ]
+  "products": []
 }
