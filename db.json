@@ -30,5 +30,61 @@
       "password": "chetu",
       "email": "chetu@gmail.com"
     }
+  ],
+  "products": [
+    {
+      "id": "27d8",
+      "name": "samsung14",
+      "price": "10000",
+      "color": "red",
+      "category": "mobile",
+      "description": "samsung is a very fast",
+      "image": "https://images.app.goo.gl/RZM9s2BXBWPKjx5P8"
+    },
+    {
+      "id": "d980",
+      "name": "samsung14",
+      "price": "10000",
+      "color": "red",
+      "category": "mobile",
+      "description": "samsung is a very fast",
+      "image": "https://images.app.goo.gl/RZM9s2BXBWPKjx5P8"
+    },
+    {
+      "id": "953d",
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "288b",
+      "name": "dd",
+      "price": "45",
+      "color": "45g",
+      "category": "gfg",
+      "description": "g",
+      "image": "g"
+    },
+    {
+      "id": "32b9",
+      "name": "iphone",
+      "price": "100000",
+      "color": "yellow",
+      "category": "mobile",
+      "description": "Iphone is a apple brand",
+      "image": "https://images.app.goo.gl/FjYzC4qpThnFf7Kx5"
+    },
+    {
+      "id": "3387",
+      "name": "iphone14",
+      "price": "10000",
+      "color": "pinl",
+      "category": "mobile",
+      "description": "Iphone is a apple brandf ",
+      "image": "https://images.app.goo.gl/FjYzC4qpThnFf7Kx5"
+    }
   ]
 }
