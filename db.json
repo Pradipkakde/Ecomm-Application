@@ -39,15 +39,6 @@
   ],
   "products": [
     {
-      "id": "0c91",
-      "name": "iphone 115",
-      "price": "120000",
-      "color": "b",
-      "category": "mobile",
-      "description": "Iphone is a prand",
-      "image": "https://images.app.goo.gl/WpT8v9RCsXdXjRJn7"
-    },
-    {
       "id": "fee8",
       "name": "iphone 115",
       "price": "120000",

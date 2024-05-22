@@ -13,3 +13,6 @@ table td, table th{
     width: 100px;
     height: 100px;
 }
+.adjust-updatelink{
+    margin-left: 15px;
+}
