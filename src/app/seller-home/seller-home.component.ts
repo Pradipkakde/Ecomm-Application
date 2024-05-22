@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../Services/product.service';
 import { product } from '../data-type';
 import { ResourceLoader } from '@angular/compiler';
-
+import{faTrash} from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'app-seller-home',
   templateUrl: './seller-home.component.html',
@@ -11,6 +11,7 @@ import { ResourceLoader } from '@angular/compiler';
 export class SellerHomeComponent implements OnInit{
   productList:undefined | product[];
   productMessage:undefined |string;
+  icon=faTrash;
 constructor(private product:ProductService){}
   ngOnInit(): void {
    this.list();

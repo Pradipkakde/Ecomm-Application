@@ -5,7 +5,7 @@
 .nav h1{
     color: blueviolet;
     margin: 0;
-
+   
     font-size: 38px;
 }
 .nav ul{
@@ -13,19 +13,24 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    
 }
 ul li{
     
     padding-left: 35px;
     padding-top: 15px;
+    
 }
 nav  li a{
     color: blueviolet;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 
 .nav .nav-search{
     margin-top: 5px;
+    
     flex:1;
     display: flex;
     margin-left: 5%;
