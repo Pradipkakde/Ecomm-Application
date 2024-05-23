@@ -37,15 +37,5 @@
       "email": "ram@gmail.com"
     }
   ],
-  "products": [
-    {
-      "id": "4527",
-      "name": "iphoen",
-      "price": "456+",
-      "color": "red",
-      "category": "de",
-      "description": "fkjkjf",
-      "image": "assets/User1.png"
-    }
-  ]
+  "products": []
 }
