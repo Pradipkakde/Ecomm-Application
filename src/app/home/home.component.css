@@ -1,0 +1,7 @@
+.product-header-image{
+    object-fit: contain;
+position: relative;
+   width: 100px;
+   height: 400px;
+
+}

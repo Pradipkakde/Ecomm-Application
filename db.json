@@ -37,5 +37,42 @@
       "email": "ram@gmail.com"
     }
   ],
-  "products": []
+  "products": [
+    {
+      "name": "Pen",
+      "price": "5",
+      "color": "white",
+      "category": "pen",
+      "description": "Pen colore is a whaite",
+      "image": "https://unsplash.com/photos/white-and-blue-iphone-cases-lSDI7Z-DLzM",
+      "id": "fe94"
+    },
+    {
+      "id": "1cbd",
+      "name": "samsung mobile",
+      "price": "120000",
+      "color": "red",
+      "category": "mobile",
+      "description": "smartphone",
+      "image": "assets/call.png"
+    },
+    {
+      "id": "c94b",
+      "name": "Iphone15",
+      "price": "10000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Iphone is a mobile category",
+      "image": "assets/user3.png"
+    },
+    {
+      "id": "eadd",
+      "name": "Nokia",
+      "price": "45213",
+      "color": "gray",
+      "category": "mobile",
+      "description": "Nokia is popular mobile",
+      "image": "https://unsplash.com/photos/white-and-blue-iphone-cases-lSDI7Z-DLzM"
+    }
+  ]
 }
