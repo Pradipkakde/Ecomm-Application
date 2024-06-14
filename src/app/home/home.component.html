@@ -17,16 +17,16 @@
 <div class="product-list-wrapper">
   <h1>Trendy product</h1>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-3" *ngFor="let item of trendyProducts">
       <div class="product-item">
-        <img src="../assets/Flower5.jpg" alt="aplle image" />
+        <img src="{{item.image}}" alt=""/>
         <div class="product-details">
-          <h6 class="name-head">Apple iPhone 13</h6>
+          <h6 class="name-head">{{item.name}}</h6>
           <div class="product-price">
-            <h6>Price:100000</h6>
+            <h6>Price:{{item.price}}</h6>
           </div>
           <div class="product-color">
-            <h6>color:blue</h6>
+            <h6>color:{{item.color}}</h6>
           </div>
         </div>
         <div class="product-footer">
@@ -35,139 +35,6 @@
         </div>
       </div>
     </div>
-
-	<div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
-
-	  <div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
-
-	  <div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
-
-	  <div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
-
-	  <div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
-
-	  <div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
-
-	  <div class="col-sm-3">
-		<div class="product-item">
-		  <img src="../assets/Flower5.jpg" alt="aplle image" />
-		  <div class="product-details">
-			<h6 class="name-head">Apple iPhone 13</h6>
-			<div class="product-price">
-			  <h6>Price:100000</h6>
-			</div>
-			<div class="product-color">
-			  <h6>color:blue</h6>
-			</div>
-		  </div>
-		  <div class="product-footer">
-			<a href="">View details</a>
-			<a href="">Add to Cart</a>
-		  </div>
-		</div>
-	  </div>
 
   </div>
 </div>

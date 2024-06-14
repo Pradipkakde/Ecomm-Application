@@ -97,6 +97,15 @@
       "category": "flower",
       "description": "Rose is red",
       "image": "../assets/Flower3.jpg"
+    },
+    {
+      "id": "f7bc",
+      "name": "Logo",
+      "price": "10000",
+      "color": "blue-violet",
+      "category": "phonelogo",
+      "description": "this is a logo",
+      "image": "../assets/call.png"
     }
   ]
 }

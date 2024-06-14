@@ -8,7 +8,8 @@ import { product } from '../data-type';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit{
-  popularProducts:undefined|product[]
+  popularProducts:undefined|product[];
+  trendyProducts:undefined| product[];
   constructor(private product:ProductService){
 
   }
@@ -17,6 +18,10 @@ export class HomeComponent implements OnInit{
       console.warn(data);
       this.popularProducts=data;
 
+    })
+    this.product.trendyProduct().subscribe((data)=>{
+      console.warn(data);
+      this.trendyProducts=data;
     })
     
   }
