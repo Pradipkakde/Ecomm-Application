@@ -35,44 +35,68 @@
       "name": "ram",
       "password": "arm",
       "email": "ram@gmail.com"
+    },
+    {
+      "id": "a392",
+      "name": "chetu",
+      "password": "chetu",
+      "email": "chetu@gmail.com"
+    },
+    {
+      "id": "6c30",
+      "name": "abc",
+      "password": "abc",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "4680",
+      "name": "chetna",
+      "password": "chetna",
+      "email": "chetna@gmail.com"
+    },
+    {
+      "id": "475d",
+      "name": "Adminpk",
+      "password": "Adminpk",
+      "email": "Adminpk@gmail.com"
     }
   ],
   "products": [
     {
-      "name": "Pen",
-      "price": "5",
-      "color": "white",
-      "category": "pen",
-      "description": "Pen colore is a whaite",
-      "image": "https://unsplash.com/photos/white-and-blue-iphone-cases-lSDI7Z-DLzM",
-      "id": "fe94"
+      "id": "a76e",
+      "name": "Flower1",
+      "price": "1200",
+      "color": "yellow",
+      "category": "flower",
+      "description": "flower is a yellow color",
+      "image": "../assets/Flower1.jpg"
     },
     {
-      "id": "1cbd",
-      "name": "samsung mobile",
-      "price": "120000",
+      "id": "8bb2",
+      "name": "Flower2",
+      "price": "100",
       "color": "red",
-      "category": "mobile",
-      "description": "smartphone",
-      "image": "assets/call.png"
+      "category": "flower",
+      "description": "flower is a yellow red",
+      "image": "../assets/Flower2.jpg"
     },
     {
-      "id": "c94b",
-      "name": "Iphone15",
-      "price": "10000",
-      "color": "black",
-      "category": "mobile",
-      "description": "Iphone is a mobile category",
-      "image": "assets/user3.png"
+      "id": "f3a2",
+      "name": "gemini",
+      "price": "120",
+      "color": "pink",
+      "category": "flower",
+      "description": "gemini is a flower",
+      "image": "../assets/Flower4.jpg"
     },
     {
-      "id": "eadd",
-      "name": "Nokia",
-      "price": "45213",
-      "color": "gray",
-      "category": "mobile",
-      "description": "Nokia is popular mobile",
-      "image": "https://unsplash.com/photos/white-and-blue-iphone-cases-lSDI7Z-DLzM"
+      "id": "6527",
+      "name": "Rose",
+      "price": "100",
+      "color": "red",
+      "category": "flower",
+      "description": "Rose is red",
+      "image": "../assets/Flower3.jpg"
     }
   ]
 }

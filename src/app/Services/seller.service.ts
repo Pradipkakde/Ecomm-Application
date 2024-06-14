@@ -36,7 +36,7 @@ export class SellerService {
     //api call code will be there
     this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,
     {observe:'response'}).subscribe((result:any)=>{
-      console.warn(result);
+      console.warn(result); 
       if(result && result.body && result.body.length){
           console.log("user logged In successfully")
           this.isLoginError.emit(false)
