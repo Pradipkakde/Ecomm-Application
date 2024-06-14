@@ -23,7 +23,7 @@
 }
 .product-item .product-details{
     border-top: 1px solid #add;
-    border-bottom: 1px solid #add;
+    border-bottom: 1px solid rgb(90, 198, 198);
     padding: 15px;
    
 }
