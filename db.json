@@ -1,64 +1,10 @@
 {
   "seller": [
     {
-      "id": "4025",
-      "name": "pk",
-      "password": "pk",
-      "email": "pk"
-    },
-    {
-      "id": "41a2",
-      "name": "",
-      "password": "",
-      "email": ""
-    },
-    {
-      "id": "2291",
-      "name": "mp",
-      "password": "mp",
-      "email": "mp"
-    },
-    {
-      "id": "24e2",
+      "id": "f8d1",
       "name": "admin",
       "password": "admin",
       "email": "admin@gmail.com"
-    },
-    {
-      "id": "b0b0",
-      "name": "chetu",
-      "password": "chetu",
-      "email": "chetu@gmail.com"
-    },
-    {
-      "id": "c3c1",
-      "name": "ram",
-      "password": "arm",
-      "email": "ram@gmail.com"
-    },
-    {
-      "id": "a392",
-      "name": "chetu",
-      "password": "chetu",
-      "email": "chetu@gmail.com"
-    },
-    {
-      "id": "6c30",
-      "name": "abc",
-      "password": "abc",
-      "email": "abc@gmail.com"
-    },
-    {
-      "id": "4680",
-      "name": "chetna",
-      "password": "chetna",
-      "email": "chetna@gmail.com"
-    },
-    {
-      "id": "475d",
-      "name": "Adminpk",
-      "password": "Adminpk",
-      "email": "Adminpk@gmail.com"
     }
   ],
   "products": [
@@ -106,6 +52,15 @@
       "category": "phonelogo",
       "description": "this is a logo",
       "image": "../assets/call.png"
+    },
+    {
+      "id": "02d8",
+      "name": "Oppo Reno 7",
+      "price": "125000",
+      "color": "gray",
+      "category": "Mobile",
+      "description": "Ths is a smartphone",
+      "image": "https://www.google.com/search?sca_esv=4d3b0a5309caf414&sca_upv=1&rlz=1C1VDKB_enIN1058IN1058&sxsrf=ADLYWIKkP4dfRWo_Mpl8nSwUg8G3qyYZRA:1718467826497&q=oppo+reno7+mobile+photos&udm=2&fbs=AEQNm0AeMNWKf4PpcKMI-eSa16lJoRPMIuyspCxWO6iZW9F1Ns6EVsgc0W_0xN47PHaanAEtg26fpfc9gg2y1-ZsywNNidIzOA0khSyMN51n7r3LlDC9M1NYStuTRDcBUYQ58dKt-Q6SigUS4Yne5yDHLg0vPBr98Nz98twIaNcnWiKaD4QuEh93Q53sB-UkWP9OcfO5KeatY98HR7cDW9ZTjFpZV7kJtA&sa=X&ved=2ahUKEwjHy-zC_92GAxVd4zgGHdw3BpgQtKgLegQIDRAB&biw=1366&bih=641&dpr=1#vhid=pHAqIMREEvxZ6M&vssid=mosaic"
     }
   ]
 }

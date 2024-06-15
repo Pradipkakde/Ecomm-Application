@@ -41,7 +41,11 @@ searchResult:undefined|product[];
     if(query){
       const element=query.target as HTMLInputElement;
     this.product.searchProduct(element.value).subscribe((result)=>{
-      console.log(result);
+ 
+      if(result.length>5)
+        {
+          result.length>5;
+        }
       this.searchResult=result;
 
     })
@@ -49,6 +53,10 @@ searchResult:undefined|product[];
   }
   hideSearch(){
     this.searchResult=undefined;
+  }
+  submitSearch(val:string){
+  this.route.navigate([`search/${val}`]);
+
   }
 
 }
